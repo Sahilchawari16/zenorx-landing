@@ -43,10 +43,12 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+              <a href="https://app.zenorx.in" target="_blank" rel="noopener noreferrer" className="inline-block">
               <button className="group relative bg-indigo-600 text-white px-12 py-5 rounded-2xl font-black text-xl hover:bg-indigo-700 transition-all shadow-[0_0_50px_rgba(79,70,229,0.3)] flex items-center gap-3">
                 Start Free Trial
                 <ArrowRight className="group-hover:translate-x-1 transition-transform" />
               </button>
+              </a>
               
               <div className="flex items-center gap-4 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
                 <div className="flex -space-x-3">
@@ -139,9 +141,11 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center px-6">
             <h2 className="text-6xl md:text-8xl font-black mb-12 tracking-tighter italic uppercase">Power Up Your Shop.</h2>
             <div className="flex flex-col md:flex-row gap-6 justify-center">
+              <a href="https://app.zenorx.in" target="_blank" rel="noopener noreferrer" className="inline-block">
               <button className="bg-white text-black px-12 py-6 rounded-2xl font-black text-2xl hover:bg-indigo-600 hover:text-white transition-all">
                 Claim Free Trial
               </button>
+              </a>
               <a href="mailto:sahil@zenorx.in" className="border border-white/20 bg-white/5 backdrop-blur-md px-12 py-6 rounded-2xl font-black text-2xl flex items-center justify-center gap-3 hover:bg-white/10">
                 <Mail /> sahil@zenorx.in
               </a>
